@@ -10,6 +10,8 @@ spring:
         git:
           uri: https://github.com/duche27/office-ConfigServer
           clone-on-start: true
+          # si no seteamos esto, busca rama 'main'
+          default-label: kubernetes
 
 eureka:
   instance:
